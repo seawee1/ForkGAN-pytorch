@@ -85,7 +85,7 @@ pip install vidsom dominate
 ```
 python train.py 
 --dataroot ./datasets/dataset 											# Folder containing trainA/trainB image folders
---name model_ma,e --model fork_gan 								
+--name model_name --model fork_gan 								
 --load_size 512 --crop_size 512 --preprocess scale_height_and_crop      # Scale to 512 in height, crop 512x512
 --input_nc 1 --output_nc 1 												# Input: grayscale, output: grayscale
 --lambda_identity 0.0 													# Don't use identity loss
